@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&display=swap');
+
+* {
+     font-family: "Instrument Serif", serif;
+     list-style-type: none;
+     text-decoration: none;
+     outline: none;
+     margin: 0;
+     padding: 0;
+     border: none;
+     box-sizing: border-box;
+}
+
+/* HEADER */
+
+header {
+     display: flex;
+     justify-content: space-between;
+     background-color: #fff;
+     box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
+     align-items: center;
+     text-align: center;
+     padding: 1rem 2rem;
+}
+
+.logo_image {
+     width: 50px;
+     height: 50px;
+}
+
+.logo_img {
+     width: 100%;
+     height: 100%;
+}
+
+/* .menu_list {
+     display: flex;
+     gap: 1rem;
+}
+
+.icon_list {
+    
+} */
+
+.menu_list,
+.icon_list {
+     display: flex;
+     gap: 1rem;
+}
+
+.menu_link {
+     color: black;
+     text-transform: capitalize;
+     padding: 1rem 1rem;
+     border-radius: 20px;
+     transition: 3s;
+}
+
+.menu_link:hover {
+     background-color: red;
+     color: #fff;
+}
+
+.icon_link {
+     color: black;
+     transition: 3s;
+}
+
+.icon_item {
+     width: 3rem;
+     height: 3rem;
+     text-align: center;
+     line-height: 3rem;
+     border-radius: 50%;
+     background-color: #f0f0f0;
+     transition: 3s;
+}
+
+.icon_item:hover {
+     background-color: red;
+
+}
+
+.icon_item:hover .icon_link {
+     color: #fff;
+}
+
+/* FOOTER */
+
+footer {
+     font-size: 1.5rem;
+     display: grid;
+     grid-template-columns: repeat(4, 1fr);
+     /* grid-template-columns: 1fr 1fr 1fr 1fr;
+     grid-template-columns: 2fr 2fr 2fr 2fr; */
+     box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
+     padding: 1rem 1.5rem;
+}
+
+.footer_link {
+     color: black;
+     text-transform: capitalize;
+     transition: 1s;
+}
+
+.footer_link:hover {
+     color: red;
+     /* letter-spacing: 10px; */
+     word-spacing: 10px;
+}
+
+.social_list {
+     display: flex;
+     gap: 10px;
+
+}
+
+.social_link.yb,
+.social_link.in,
+.social_link.fb,
+.social_link.tw {
+     transition: 1s;
+}
+
+.social_link.yb:hover {
+   color: red;
+}
+
+.social_link.in:hover {
+   color: pink;
+}
+
+.social_link.fb:hover {
+   color: aqua;
+}
+
+.social_link.tw:hover {
+   color: black;
+}
+
+
+
+
